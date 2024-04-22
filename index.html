@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+body>:nth-child(1){
+  
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+       
+}
+div> button{
+    background-color: red;
+    border-radius: 5px;
+    border-width: 0px;
+    /* height: 30px; */
+    width:90px;
+    color: white;
+    margin-left: 10px;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px
+}
+nav .logo-div{
+    margin-right: 60px;
+}
+nav a{
+    text-decoration: none ;
+    color: black;
+   
+    margin-right: 10px;
+}
+#btn1{
+    border-width: 0px;
+    background-color: #f2fdff;
+    color: rgb(128, 63, 159);
+    width: 135px;
+    margin-right: 10px;
+    padding: 10px 10px;
+}
+#btn2{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    height: 30px;
+}
+    </style>
+</head>
+<body>
+    
+<nav class="nav">
+    <div class="logo-div">
+         <img id="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="mi-logo">
+    </div>
+    <div class="left">
+       <span id="first" class="left-tab"><a href="#">COURSES</a></span>
+       <span class="left-tab"><a href="#">FEES & ISA</a></span>
+       <span class="left-tab"><a href="#">ABOUT US</a></span>
+       <span class="left-tab"><a href="#">HIRE FROM US</a></span>
+       <span class="left-tab"><a href="#">FAQ</a></span>
+        <span class="left-tab"><a href="#">EVENTS</a></span>
+     
+    </div>
+
+    <div class="right">
+        <button id="btn1">REFER & EARN</button>
+        <button id="btn2">LOGIN</button>
+    </div>
+</nav>
+</body>
+</html>
+
+
